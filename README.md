@@ -31,6 +31,23 @@ OpenAI Agent SDKを用いた、複数ペルソナへのヒアリングと仮説�
 pip install -r requirements.txt
 ```
 
+## テストの実行
+
+このプロジェクトには包括的なテストスイートが含まれています。
+
+```bash
+# すべてのテストを実行
+pytest
+
+# 詳細な出力で実行
+pytest -v
+
+# カバレッジレポート付きで実行
+pytest --cov=. --cov-report=html
+```
+
+詳細は [TESTING_GUIDE.md](TESTING_GUIDE.md) を参照してください。
+
 ## 使用方法
 
 ### 基本的な使い方
